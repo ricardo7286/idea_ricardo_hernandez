@@ -99,7 +99,7 @@ strong{
   bottom: 0;
   z-index: -1;
 }
-section#section1{
+#section1{
   grid-area: recursos;
   background-color: #272f35;
   width: 100vw;
@@ -107,7 +107,7 @@ section#section1{
   align-items: center;
   padding: 1%;
 }
-section#section2{
+#section2{
   grid-area: noticias;
   background-color: #272f35;
   justify-items: center;
@@ -252,7 +252,7 @@ footer{
     bottom: 0;
     z-index: -1;
   }
-  section#section1{
+  #section1{
     grid-area: recursos;
     background-color: #272f35;
     width: 100vw;
@@ -260,7 +260,7 @@ footer{
     align-items: center;
     padding: 1%;
   }
-  section#section2{
+  #section2{
     grid-area: noticias;
     background-color: #272f35;
     justify-items: center;
@@ -405,7 +405,7 @@ footer{
     bottom: 0;
     z-index: -9999;
   }
-  section#section1{
+  #section1{
     grid-area: recursos;
     background-color: #272f35;
     width: 100vw;
@@ -413,7 +413,7 @@ footer{
     align-items: center;
     padding: 1%;
   }
-  section#section2{
+  #section2{
     grid-area: noticias;
     background-color: #272f35;
     justify-items: center;
@@ -557,7 +557,7 @@ strong{
   bottom: 0;
   z-index: -9999;
 }
-section#section1{
+#section1{
   grid-area: recursos;
   background-color: #272f35;
   width: 100vw;
@@ -565,7 +565,7 @@ section#section1{
   align-items: center;
   padding: 1%;
 }
-section#section2{
+#section2{
   grid-area: noticias;
   background-color: #272f35;
   justify-items: center;
