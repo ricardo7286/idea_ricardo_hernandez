@@ -11,8 +11,8 @@
   grid-template-areas: 
   "header header header"
   "videop videop videop"
-  "s1 s1 s1"
-  "s2 s2 s2"
+  "recursos recursos recursos"
+  "noticias noticias noticias"
   "footer footer footer"; 
 }
 body{
@@ -99,16 +99,16 @@ strong{
   bottom: 0;
   z-index: -1;
 }
-.section1{
-  grid-area: s1;
+section#section1{
+  grid-area: recursos;
   background-color: #272f35;
   width: 100vw;
   justify-items: center;
   align-items: center;
   padding: 1%;
 }
-.section2{
-  grid-area: s2;
+section#section2{
+  grid-area: noticias;
   background-color: #272f35;
   justify-items: center;
   width: 100vw;
@@ -164,8 +164,8 @@ footer{
     grid-template-areas: 
     "header header header"
     "videop videop videop"
-    "s1 s1 s1"
-    "s2 s2 s2"
+    "recursos recursos recursos"
+    "noticias noticias noticias"
     "footer footer footer"; 
   }
   body{
@@ -252,16 +252,16 @@ footer{
     bottom: 0;
     z-index: -1;
   }
-  .section1{
-    grid-area: s1;
+  section#section1{
+    grid-area: recursos;
     background-color: #272f35;
     width: 100vw;
     justify-items: center;
     align-items: center;
     padding: 1%;
   }
-  .section2{
-    grid-area: s2;
+  section#section2{
+    grid-area: noticias;
     background-color: #272f35;
     justify-items: center;
     width: 100vw;
@@ -319,8 +319,8 @@ footer{
     grid-template-areas: 
     "header header header"
     "videop videop videop"
-    "s1 s1 s1"
-    "s2 s2 s2"
+    "recursos recursos recursos"
+    "noticias noticias noticias"
     "footer footer footer"; 
   }
   body{
@@ -405,16 +405,16 @@ footer{
     bottom: 0;
     z-index: -9999;
   }
-  .section1{
-    grid-area: s1;
+  section#section1{
+    grid-area: recursos;
     background-color: #272f35;
     width: 100vw;
     justify-items: center;
     align-items: center;
     padding: 1%;
   }
-  .section2{
-    grid-area: s2;
+  section#section2{
+    grid-area: noticias;
     background-color: #272f35;
     justify-items: center;
     width: 100vw;
@@ -471,8 +471,8 @@ footer{
   grid-template-areas: 
   "header header header"
   "videop videop videop"
-  "s1 s1 s1"
-  "s2 s2 s2"
+  "recursos recursos recursos"
+  "noticias noticias noticias"
   "footer footer footer"; 
 }
 body{
@@ -557,16 +557,16 @@ strong{
   bottom: 0;
   z-index: -9999;
 }
-.section1{
-  grid-area: s1;
+section#section1{
+  grid-area: recursos;
   background-color: #272f35;
   width: 100vw;
   justify-items: center;
   align-items: center;
   padding: 1%;
 }
-.section2{
-  grid-area: s2;
+section#section2{
+  grid-area: noticias;
   background-color: #272f35;
   justify-items: center;
   width: 100vw;
