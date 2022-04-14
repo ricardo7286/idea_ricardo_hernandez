@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../media/imagenes/ambulancia_icon.png">
+    <!--Link a animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +18,12 @@
     <!--Este es mi encabezado-->
     <header>
         <div class="barra_logo">
-            <div class="logo">
+            <div class="logo animate__animated animate__backInLeft">
              <img src="../media/imagenes/Logo.png" alt="Logo E-Urgencias" height="100%">
              <h1 class="titulos" hidden><strong>E-Urgencias</strong></h1>
              <h3 class="titulos" hidden><em>Pasion por salvar vidas</em></h3>
              </div>
-             <div class="siguenos">
+             <div class="siguenos animate__animated animate__backInDown">
              <h4 class="titulos">Siguenos . . .</h4>
              <a href="https://www.facebook.com/"><img src="../media/imagenes/facebook_icon.png" alt="Siguenos por facebook" height="25%"></a>
              <a href="https://www.instagram.com/"><img src="../media/imagenes/instagram_icon.png" alt="Siguenos en instagram" height="25%"></a>
@@ -30,7 +32,7 @@
              <a href="https://web.telegram.org/"><img src="../media/imagenes/telegram_icon.png" alt="Siguenos en telegram" height="25%"></a>
              </div>
          </div>
-         <nav>
+         <nav class="animate__animated animate__backInRight">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../pages/actualidad.html">Actualidad</a></li>
@@ -55,7 +57,7 @@
     <h3 class="titulos"><em>Enlaces a las mejores calculadoras medicas . . .</em></h3>
     </div>
     <br>
-    <div class="cont_section1">
+    <div class="cont_section1 wow animate__animated animate__backInDown">
     <div>
     <img class="imgtable" src="../media/imagenes/calculadora1.png" alt="">
     </div>
@@ -87,5 +89,10 @@
        <h3 class="titulos">¿TE GUSTA? COMPARTE!</h3><img src="../media/imagenes/printer_icon.png" alt="" width="40px"><img src="../media/imagenes/mail_icon.png" alt="" width="40px"><img src="../media/imagenes/twitter_icon.png" alt="" width="40px"><img src="../media/imagenes/facebook_icon.png" alt="" width="40px"><img src="../media/imagenes/whatsapp_icon.png" alt="" width="40px">
    </footer>
     </div>
+    <!--PEGO EL SCRIPTde WOW-->
+<script src="../js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
