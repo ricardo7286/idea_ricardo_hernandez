@@ -45,9 +45,11 @@ header{
 }
 .logo{
     align-items: flex-start;
+    width: 60vw;
 }
 .siguenos{
    align-items: flex-end;
+   width: 20vw;
    font-size: 1.5vw;
    font-size: 1.5vh;
 }
@@ -196,9 +198,11 @@ footer{
   }
   .logo{
       align-items: flex-start;
+      width: 60vw;
   }
   .siguenos{
      align-items: flex-end;
+     width: 20vw;
      font-size: 3vw;
      font-size: 3vh;
   }
