@@ -79,10 +79,12 @@ nav li a {
 }
 nav li:hover{
   background-color: #ff2554;
+  transform: scale(1.2, 1.2);
 }
 nav li a:hover{
   color: #fff;
   font-weight: 700;
+  transform: scale(1.2, 1.2);
 }
 strong{
   color: #ff2554;
@@ -232,10 +234,12 @@ footer{
   }
   nav li:hover{
     background-color: #ff2554;
+    transform: scale(1.2, 1.2);
   }
   nav li a:hover{
     color: #fff;
     font-weight: 700;
+    transform: scale(1.2, 1.2);
   }
   strong{
     color: #ff2554;
@@ -385,10 +389,12 @@ footer{
   }
   nav li:hover{
     background-color: #ff2554;
+    transform: scale(1.2, 1.2);
   }
   nav li a:hover{
     color: #fff;
     font-weight: 700;
+    transform: scale(1.2, 1.2);
   }
   strong{
     color: #ff2554;
@@ -537,10 +543,12 @@ nav li a {
 }
 nav li:hover{
   background-color: #ff2554;
+  transform: scale(1.2, 1.2);
 }
 nav li a:hover{
   color: #fff;
   font-weight: 700;
+  transform: scale(1.2, 1.2);
 }
 strong{
   color: #ff2554;
