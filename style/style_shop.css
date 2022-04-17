@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #272f35;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 200 ;
+    color: #ffff;
+}
+.titulos{
+    color: #ff2554;
+}
+header{
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  top: 0;
+  width: 100vw;
+  background-color: #272f35;
+}
+.barra_logo{
+  height: 10vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.logo{
+    align-items: flex-start;
+}
+.siguenos{
+   align-items: flex-end;
+   font-size: 2vw;
+   font-size: 2vh;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+  background-color: #272f35;
+}
+nav{
+background-color: #272f35;
+}
+nav li a {
+  color: #afb8be;
+  border-left: #ff2554;
+  border-right: #ff2554;
+}
+nav li:hover{
+  background-color: #ff2554;
+}
+nav li a:hover{
+  color: #fff;
+}
+strong{
+  color: #ff2554;
+}
+footer{
+  background-color: #272f35;
+  color: #ff2554;
+}
