@@ -34,9 +34,18 @@ header{
     align-items: flex-start;
 }
 .siguenos{
-   align-items: flex-end;
-   font-size: 2vw;
-   font-size: 2vh;
+  align-items: flex-end;
+  width: 20vw;
+  font-size: 1.5vw;
+  font-size: 1.5vh;
+  padding: 1rem ;
+}
+.siguenos ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  list-style: none;
 }
 .navbar navbar-expand-lg navbar-light bg-light{
   background-color: #272f35;
@@ -69,4 +78,7 @@ footer{
   align-items: center;
   font-size: 2vw;
   font-size: 2vh;
+}
+.imgred{
+  height: 3vh;
 }
