@@ -1,0 +1,33 @@
+/*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
+footer{
+    grid-area: footer;
+    background-color: $dark-gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: last baseline;
+    align-items: center;
+    font-size: 2vw;
+    font-size: 2vh;
+  }
+/*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
+@media (min-width: 576px) {
+    footer{
+        font-size: 3vw;
+        font-size: 3vh;
+      }
+}
+/*/Pantallas medianas (tablets de más de 768px)*/
+@media (min-width: 768px) {
+    footer{
+        font-size: 1.5vw;
+        font-size: 1.5vh;
+      }
+}
+/*/Pantallas muy grandes (desktops de más de 1200px)*/
+@media (min-width: 1200px) {
+    footer{
+        font-size: 2vw;
+        font-size: 2vh;
+      }
+}

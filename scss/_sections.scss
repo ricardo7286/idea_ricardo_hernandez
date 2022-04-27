@@ -1,0 +1,93 @@
+/*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
+#section1{
+    grid-area: recursos;
+    background-color: $dark-gray;
+    width: 100vw;
+    justify-items: center;
+    align-items: center;
+    padding: 1%;
+  }
+  #section2{
+    grid-area: noticias;
+    background-color: $dark-gray;
+    justify-items: center;
+    width: 100vw;
+    align-items: center;
+    padding: 1%;
+  }
+  .cont_section1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 2fr 2fr 2fr 2fr;
+    font-size: 1.5vh;
+    align-items: center;
+    padding: 5%;
+  }
+  .cont_section2{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    font-size: 1.5vh;
+    align-items: center;
+    padding: 5%;
+    align-self: center;
+  }
+    
+  /*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
+  @media (min-width: 576px) {
+    .cont_section1{
+      grid-template-columns: 1fr 2fr;
+      grid-auto-rows: 2fr 2fr 2fr 2fr;
+      font-size: 4vh;
+      padding: 5%;
+    }
+    .cont_section2{
+      display: grid;
+      grid-template-columns: 2fr;
+      grid-template-rows: auto;
+      justify-content: space-between;
+      font-size: 4vh;
+      align-items: center;
+      padding: 5%;
+      align-self: center;
+    }
+  }
+  
+  /*/Pantallas medianas (tablets de más de 768px)*/
+  @media (min-width: 768px) {
+    .cont_section1{
+      grid-template-columns: repeat(2, 1fr 2fr);
+      grid-template-rows: 1fr 1fr;
+      font-size: 1.2vh;
+      padding: 3%;
+    }
+    .cont_section2{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      font-size: 1.2vh;
+      padding: 3%;
+      text-align: center;
+      align-items: start;
+    }
+  }
+  
+  /*/Pantallas muy grandes (desktops de más de 1200px)*/
+  @media (min-width: 1200px) {
+  .cont_section1{
+    grid-template-columns: repeat(2, 1fr 2fr);
+    grid-template-rows: 1fr 1fr;
+    font-size: 2.5vh;
+    padding: 5%;
+  }
+  .cont_section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: 2vh;
+    padding: 5%;
+    text-align: center;
+    align-items: start;
+  }
+  }

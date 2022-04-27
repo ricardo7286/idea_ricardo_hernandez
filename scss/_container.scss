@@ -1,0 +1,29 @@
+/*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
+.container{
+    display: grid;
+    grid-template-rows: 18vh 50vw auto auto 10vh;
+    grid-template-areas: 
+    "header header header"
+    "videop videop videop"
+    "recursos recursos recursos"
+    "noticias noticias noticias"
+    "footer footer footer"; 
+  }
+/*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
+@media (min-width: 576px) {
+    .container{
+        grid-template-rows: 30vh 50vw auto auto 10vh;
+      }
+}
+/*/Pantallas medianas (tablets de más de 768px)*/
+@media (min-width: 768px) {
+    .container{
+        grid-template-rows: 14vh 40vw auto auto 10vh;
+      }
+}
+/*/Pantallas muy grandes (desktops de más de 1200px)*/
+@media (min-width: 1200px) {
+    .container{
+        grid-template-rows: 20vh 40vw auto auto 10vh;
+      }
+}

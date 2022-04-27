@@ -1,0 +1,72 @@
+/*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
+nav{
+    padding: 1rem ;
+    ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      list-style: none;
+          a{
+          text-decoration: none;
+          }
+      }
+      li{
+          a{
+              font-size: 1.5vw;
+              font-size: 2vh;
+              color: $gray;
+              text-decoration: none;
+              text-align: center;
+              padding-left: 2px;
+              padding-right: 2px;
+              border-left: solid  1px $cool-red;
+              border-right: solid  1px $cool-red;
+              &:hover{
+                  color: $pure-white;
+                  font-weight: 700;
+                  transform: scale(1.2, 1.2);
+                }
+          }
+          &:hover{
+              background-color: $cool-red;
+              transform: scale(1.2, 1.2);
+            }
+      }
+  }
+/*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
+@media (min-width: 576px) {
+    nav{
+        li{
+            a {
+                font-size: 3.5vw;
+                font-size: 4vh;
+              }
+        }  
+      }
+}
+/*/Pantallas medianas (tablets de más de 768px)*/
+@media (min-width: 768px) {
+    nav{
+        li{
+            a {
+                font-size: 1vw;
+                font-size: 2vh;
+              }
+        }
+      }
+}
+/*/Pantallas muy grandes (desktops de más de 1200px)*/
+@media (min-width: 1200px) {
+    nav{
+        ul{
+          justify-content: space-evenly;
+        }
+        li{
+          a {
+              font-size: 2vw;
+              font-size: 3vh;
+            }
+        }
+      }
+}

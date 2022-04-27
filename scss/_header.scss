@@ -1,0 +1,62 @@
+/*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
+header{
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    top: 0;
+    width: 100vw;
+    background-color: $dark-gray;
+  }
+  .barra_logo{
+    height: 6vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .logo{
+      align-items: flex-start;
+      width: 60vw;
+  }
+  .siguenos{
+     align-items: flex-end;
+     width: 20vw;
+     font-size: 1.5vw;
+     font-size: 1.5vh;
+  }
+/*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
+@media (min-width: 576px) {
+      .barra_logo{
+        height: 10vh;
+        width: 90vw;
+      }
+      .siguenos{
+         width: 20vw;
+         font-size: 3vw;
+         font-size: 3vh;
+      }
+}
+/*/Pantallas medianas (tablets de más de 768px)*/
+@media (min-width: 768px) {
+      .barra_logo{
+        height: 6vh;
+        width: 90vw;
+      }
+      .siguenos{
+         font-size: 2vw;
+         font-size: 2vh;
+      }
+}
+/*/Pantallas muy grandes (desktops de más de 1200px)*/
+@media (min-width: 1200px) {
+      .barra_logo{
+        height: 10vh;
+        width: 90vw;
+      }
+      .siguenos{
+         font-size: 2vw;
+         font-size: 2vh;
+      }
+}
