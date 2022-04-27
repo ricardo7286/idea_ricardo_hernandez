@@ -78,7 +78,11 @@ footer{
   align-items: center;
   font-size: 2vw;
   font-size: 2vh;
+  padding: 3%;
 }
 .imgred{
   height: 3vh;
+}
+.imglogo{
+  height: 100%;
 }
