@@ -74,6 +74,10 @@ fieldset {
   height: 3vh;
 }
 
+.imglogo {
+  height: 100%;
+}
+
 /*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
 header {
   -ms-grid-row: 1;
