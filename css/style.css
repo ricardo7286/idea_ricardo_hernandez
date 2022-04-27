@@ -70,6 +70,10 @@ fieldset {
   padding: 5%;
 }
 
+.imgred {
+  height: 3vh;
+}
+
 /*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
 header {
   -ms-grid-row: 1;
@@ -120,6 +124,22 @@ header {
   width: 20vw;
   font-size: 1.5vw;
   font-size: 1.5vh;
+  padding: 1rem;
+}
+
+.siguenos ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
 }
 
 /*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
