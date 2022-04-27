@@ -1,0 +1,37 @@
+/*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
+.videop{
+    grid-area: videop;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: static;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    bottom: 0;
+    z-index: -1;
+  }
+/*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
+@media (min-width: 576px) {
+    .videop{
+        top: 30vh;
+        bottom: 0;
+        z-index: -1;
+      }
+}
+/*/Pantallas medianas (tablets de más de 768px)*/
+@media (min-width: 768px) {
+    .videop{
+        top: 0;
+        bottom: 0;
+        z-index: -9999;
+      }
+}
+/*/Pantallas muy grandes (desktops de más de 1200px)*/
+@media (min-width: 1200px) {
+    .videop{
+        top: 0;
+        bottom: 0;
+        z-index: -9999;
+      }
+}
