@@ -2,3 +2,15 @@ $cool-red: #ff2554;
 $dark-gray: #272f35;
 $pure-white: #ffff;
 $gray: #afb8be;
+
+/*//Mixin de tamano de texto*/
+@mixin fonts($alto, $ancho) {
+    font-size: $alto+vh;
+    font-size: $ancho+vw;
+  }
+
+  /*//Mixin alto y ancho*/
+@mixin size($alto, $ancho) {
+    height: $alto+vh;
+    width: $ancho+vw;
+  }

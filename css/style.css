@@ -6,6 +6,8 @@
           box-sizing: border-box;
 }
 
+/*//Mixin de tamano de texto*/
+/*//Mixin alto y ancho*/
 /*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
 .container {
   display: -ms-grid;
@@ -126,8 +128,8 @@ header {
       -ms-flex-align: end;
           align-items: flex-end;
   width: 20vw;
-  font-size: 1.5vw;
   font-size: 1.5vh;
+  font-size: 1.5vw;
   padding: 1rem;
 }
 
@@ -154,8 +156,8 @@ header {
   }
   .siguenos {
     width: 20vw;
-    font-size: 3vw;
     font-size: 3vh;
+    font-size: 3vw;
   }
 }
 
@@ -166,8 +168,8 @@ header {
     width: 90vw;
   }
   .siguenos {
-    font-size: 2vw;
     font-size: 2vh;
+    font-size: 2vw;
   }
 }
 
@@ -178,8 +180,8 @@ header {
     width: 90vw;
   }
   .siguenos {
-    font-size: 2vw;
     font-size: 2vh;
+    font-size: 2vw;
   }
 }
 
@@ -209,8 +211,8 @@ nav ul a {
 }
 
 nav li a {
-  font-size: 1.5vw;
-  font-size: 2vh;
+  font-size: 4vh;
+  font-size: 3.5vw;
   color: #afb8be;
   text-decoration: none;
   text-align: center;
@@ -236,16 +238,16 @@ nav li:hover {
 /*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
 @media (min-width: 576px) {
   nav li a {
-    font-size: 3.5vw;
     font-size: 4vh;
+    font-size: 3.5vw;
   }
 }
 
 /*/Pantallas medianas (tablets de más de 768px)*/
 @media (min-width: 768px) {
   nav li a {
-    font-size: 1vw;
-    font-size: 2vh;
+    font-size: 4vh;
+    font-size: 1.5vw;
   }
 }
 
@@ -257,8 +259,8 @@ nav li:hover {
             justify-content: space-evenly;
   }
   nav li a {
-    font-size: 2vw;
-    font-size: 3vh;
+    font-size: 2vh;
+    font-size: 1.5vw;
   }
 }
 
@@ -471,31 +473,31 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 2vw;
   font-size: 2vh;
+  font-size: 2vw;
   padding: 3%;
 }
 
 /*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
 @media (min-width: 576px) {
   footer {
-    font-size: 3vw;
     font-size: 3vh;
+    font-size: 3vw;
   }
 }
 
 /*/Pantallas medianas (tablets de más de 768px)*/
 @media (min-width: 768px) {
   footer {
-    font-size: 1.5vw;
     font-size: 1.5vh;
+    font-size: 1.5vw;
   }
 }
 
 /*/Pantallas muy grandes (desktops de más de 1200px)*/
 @media (min-width: 1200px) {
   footer {
-    font-size: 2vw;
     font-size: 2vh;
+    font-size: 2vw;
   }
 }

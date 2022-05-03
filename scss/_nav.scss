@@ -13,8 +13,7 @@ nav{
       }
       li{
           a{
-              font-size: 1.5vw;
-              font-size: 2vh;
+              @include fonts(4, 3.5);           
               color: $gray;
               text-decoration: none;
               text-align: center;
@@ -39,8 +38,7 @@ nav{
     nav{
         li{
             a {
-                font-size: 3.5vw;
-                font-size: 4vh;
+              @include fonts(4, 3.5);
               }
         }  
       }
@@ -50,8 +48,7 @@ nav{
     nav{
         li{
             a {
-                font-size: 1vw;
-                font-size: 2vh;
+              @include fonts(4, 1.5);
               }
         }
       }
@@ -64,8 +61,7 @@ nav{
         }
         li{
           a {
-              font-size: 2vw;
-              font-size: 3vh;
+            @include fonts(2, 1.5);
             }
         }
       }

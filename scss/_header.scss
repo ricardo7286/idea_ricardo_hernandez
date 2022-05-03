@@ -9,8 +9,7 @@ header{
     background-color: $dark-gray;
   }
   .barra_logo{
-    height: 6vh;
-    width: 90vw;
+    @include size(6, 90);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -23,8 +22,7 @@ header{
   .siguenos{
      align-items: flex-end;
      width: 20vw;
-     font-size: 1.5vw;
-     font-size: 1.5vh;
+     @include fonts(1.5, 1.5);
      padding: 1rem ;
     ul{
       display: flex;
@@ -37,34 +35,28 @@ header{
 /*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
 @media (min-width: 576px) {
       .barra_logo{
-        height: 10vh;
-        width: 90vw;
+        @include size(10, 90);
       }
       .siguenos{
          width: 20vw;
-         font-size: 3vw;
-         font-size: 3vh;
+         @include fonts(3, 3);
       }
 }
 /*/Pantallas medianas (tablets de más de 768px)*/
 @media (min-width: 768px) {
       .barra_logo{
-        height: 6vh;
-        width: 90vw;
+        @include size(6, 90);
       }
       .siguenos{
-         font-size: 2vw;
-         font-size: 2vh;
+        @include fonts(2, 2);
       }
 }
 /*/Pantallas muy grandes (desktops de más de 1200px)*/
 @media (min-width: 1200px) {
       .barra_logo{
-        height: 10vh;
-        width: 90vw;
+        @include size(10, 90);
       }
       .siguenos{
-         font-size: 2vw;
-         font-size: 2vh;
+        @include fonts(2, 2);
       }
 }
