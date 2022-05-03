@@ -1,19 +1,11 @@
 /*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
 #section1{
     grid-area: recursos;
-    background-color: $background;
-    width: 100vw;
-    justify-items: center;
-    align-items: center;
-    padding: 3%;
+    @extend %section;
   }
   #section2{
     grid-area: noticias;
-    background-color: $background;
-    justify-items: center;
-    width: 100vw;
-    align-items: center;
-    padding: 3%;
+    @extend %section;
   }
   .cont_section1{
     display: grid;

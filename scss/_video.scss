@@ -1,15 +1,6 @@
 /*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
 .videop{
-    grid-area: videop;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: static;
-    left: 0;
-    right: 0;
-    top: 30vh;
-    bottom: 0;
-    z-index: -1;
+    @extend %video;
   }
 /*//Pantallas pequeñas (móviles en landscape de más de 576px)*/
 @media (min-width: 576px) {

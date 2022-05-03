@@ -14,3 +14,25 @@ $gray: #afb8be;
     height: $alto+vh;
     width: $ancho+vw;
   }
+
+ /*//Extend de video*/
+  %video{
+    grid-area: videop;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: static;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  %section{
+    background-color: $background;
+    width: 100vw;
+    justify-items: center;
+    align-items: center;
+    padding: 3%;
+  }
