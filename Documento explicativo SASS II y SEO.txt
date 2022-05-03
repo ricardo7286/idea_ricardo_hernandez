@@ -1,0 +1,12 @@
+SASS II:
+Se agrega extend en las secciones del sitio 
+Se agrega extend en los videos del sitio
+Se agrega mixin para establecer alto y ancho de contenedores del sitio
+Se agrega mixin para el ancho y alto de los textos del sitio responsive.
+
+
+SEO:
+Se optimiza el tamano de las imágenes con las herramientas en línea sugeridas, reduciendo algunas hasta mas del 50% de su peso; este cambio fue para todo el sitio, inclusive en la tienda.
+Se optimizan las dimensiones de las imágenes, ya que cada una tenía diferentes dimensiones y las grillas no quedaban; este cambio fue para todo el sitio, inclusive en la tienda.
+Los tittle de todas las paginas desde un inicio se crearon de la siguiente manera “titulo de la página a razón de su contenido” - “Nombre del sitio”.
+Se agregan Keywords y description diferentes de acuerdo al contenido; este cambio fue para todo el sitio, inclusive en la tienda.
