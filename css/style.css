@@ -26,6 +26,7 @@
   z-index: -1;
 }
 
+/*//Extend de section*/
 #section1, #section2 {
   background-color: #272f35;
   width: 100vw;
@@ -93,6 +94,7 @@ fieldset {
 
 .videorecurso {
   width: 30vw;
+  padding: 5%;
 }
 
 .imgtable {
