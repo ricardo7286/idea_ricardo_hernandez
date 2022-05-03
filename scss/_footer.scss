@@ -1,7 +1,7 @@
 /*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
 footer{
     grid-area: footer;
-    background-color: $dark-gray;
+    background-color: $background;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

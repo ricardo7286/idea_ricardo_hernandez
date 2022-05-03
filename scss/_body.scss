@@ -1,16 +1,16 @@
 body{
-    background-color: $dark-gray;
+    background-color: $background;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 200 ;
-    color: $pure-white;
+    color: $parrafos;
 }
 .titulos{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 700;
-    color: $cool-red;
+    color: $titulos;
 }
 strong{
-  color: $cool-red;
+  color: $titulos;
 }
 fieldset{
   margin: 5%;

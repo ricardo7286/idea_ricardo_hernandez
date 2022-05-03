@@ -6,7 +6,7 @@ header{
     padding: 1%;
     top: 0;
     width: 100vw;
-    background-color: $dark-gray;
+    background-color: $background;
   }
   .barra_logo{
     @include size(6, 90);

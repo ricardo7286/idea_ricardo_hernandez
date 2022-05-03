@@ -19,16 +19,16 @@ nav{
               text-align: center;
               padding-left: 2px;
               padding-right: 2px;
-              border-left: solid  1px $cool-red;
-              border-right: solid  1px $cool-red;
+              border-left: solid  1px $titulos;
+              border-right: solid  1px $titulos;
               &:hover{
-                  color: $pure-white;
+                  color: $parrafos;
                   font-weight: 700;
                   transform: scale(1.2, 1.2);
                 }
           }
           &:hover{
-              background-color: $cool-red;
+              background-color: $titulos;
               transform: scale(1.2, 1.2);
             }
       }

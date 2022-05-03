@@ -1,7 +1,7 @@
 /*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
 #section1{
     grid-area: recursos;
-    background-color: $dark-gray;
+    background-color: $background;
     width: 100vw;
     justify-items: center;
     align-items: center;
@@ -9,7 +9,7 @@
   }
   #section2{
     grid-area: noticias;
-    background-color: $dark-gray;
+    background-color: $background;
     justify-items: center;
     width: 100vw;
     align-items: center;
