@@ -4,10 +4,15 @@ body{
     font-weight: 200 ;
     color: $parrafos;
 }
+p{
+  margin: 3%;
+  text-align: justify;
+}
 .titulos{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 700;
     color: $titulos;
+    padding: 3%;
 }
 strong{
   color: $titulos;
@@ -29,4 +34,7 @@ fieldset{
 }
 .imglogo{
   height: 100%;
+}
+.imgyo{
+  width: 90vw;
 }

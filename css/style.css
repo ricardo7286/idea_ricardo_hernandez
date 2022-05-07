@@ -77,10 +77,16 @@ body {
   color: #ffff;
 }
 
+p {
+  margin: 3%;
+  text-align: justify;
+}
+
 .titulos {
   font-family: 'Atkinson Hyperlegible', sans-serif;
   font-weight: 700;
   color: #ff2554;
+  padding: 3%;
 }
 
 strong {
@@ -108,6 +114,10 @@ fieldset {
 
 .imglogo {
   height: 100%;
+}
+
+.imgyo {
+  width: 90vw;
 }
 
 /*Pantallas muy pequeñas  (Siguiendo la guia mobile first)*/
